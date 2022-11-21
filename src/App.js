@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Fetch from "./components/fetchapi";
+import Story from "./components/story";
+import MyComponent from "./components/prac";
+import  New  from "./components/new";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Fetch />
+      {/* <Story /> */}
+      {/* <New /> */}
+      {/* <MyComponent /> */}
+    </>
   );
 }
 
